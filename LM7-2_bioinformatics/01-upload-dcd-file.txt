@@ -1,0 +1,16 @@
+Upload a dcd file
+=================
+
+Using VMD GUI
+-------------
+1- Run VMD
+2- File/New Molecule
+3- Choose the psf file and load
+4- Choose the dcd fiel and load
+
+
+Using Shell command
+------------------
+1- direction-to/vmd -dispdev win
+2- mol new direction-to/psf-file
+3- mol addfile direction-to/dcd-file first 0 last 2500 step 1 waitfor all

@@ -1,0 +1,16 @@
+convert a dcd file to pdbs
+=================
+
+Using VMD GUI
+-------------
+1- Make a directory "pdb" in the current location
+1- Run VMD
+2- File/New Molecule
+3- Choose the psf file and load
+4- Choose the dcd fiel and load
+5- Extensions/Tk Console
+6- In the Tk Console Type: 
+    source dcdtopdb.tcl 
+7- Then type:
+    dcdtopdb top ./pdb
+   
